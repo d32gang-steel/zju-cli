@@ -1,0 +1,19 @@
+{
+  "name": "xzzd-cli",
+  "version": "0.1.0",
+  "description": "AI-friendly CLI for ZJU 学在浙大 (courses.zju.edu.cn) — login, courses, assignments, raw API access",
+  "type": "module",
+  "bin": {
+    "xdc": "bin/xdc.js",
+    "xzzd": "bin/xdc.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node bin/xdc.js",
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "private": true
+}

@@ -1,0 +1,19 @@
+{
+  "name": "cnlxq-cli",
+  "version": "0.1.0",
+  "description": "CLI for ZJU Computer Networks online homework (iMATHAS at 10.214.0.253)",
+  "type": "module",
+  "bin": {
+    "cnhw": "bin/cnhw.js",
+    "cnlxq": "bin/cnhw.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node bin/cnhw.js",
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "private": true
+}
